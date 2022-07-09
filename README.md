@@ -1,3 +1,5 @@
+[Ruby 中文版](https://doc.yonyoucloud.com/doc/wiki/project/ruby/index.html)
+
 ### Init project
 
 ```shell
