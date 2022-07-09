@@ -1,0 +1,1 @@
+print File.read(Dir.pwd + '/json/demo.json')
