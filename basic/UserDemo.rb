@@ -4,6 +4,5 @@ user = User.new('ZPQ')
 
 user.add
 puts user.username
-
 student = Student.new('小明')
 student.add

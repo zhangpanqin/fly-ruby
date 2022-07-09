@@ -1,5 +1,5 @@
 [Ruby 中文版](https://doc.yonyoucloud.com/doc/wiki/project/ruby/index.html)
-
+[Specs](https://www.betterspecs.org/)
 ### Init project
 
 ```shell
@@ -33,4 +33,25 @@ RSpec.configure do |config|
   # 匹配测试文件
   config.pattern = '**{,/*/**}/*_spec.rb'
 end
+```
+
+### rbenv
+
+在项目下创建 `.ruby-version` 文件，用于管理项目使用的 ruby 版本。
+
+```shell
+# install 
+brew install rbenv ruby-build
+
+# list latest stable versions:
+rbenv install -l
+
+# 选择上面的版本，安装 ruby
+rbenv install 3.1.2
+
+# 查看本地已经安装的 ruby 版本
+rbenv versions
+
+# 全局设置 ruby 的版本
+rbenv global 3.1.2
 ```
